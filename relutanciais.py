@@ -20,9 +20,9 @@ l2 = (8.75+54.5+52.9)*1e-3
 l3 = (8.75+54.5)*1e-3
 le = (-17.4/2)+(105.8/2)*1e-3
 
-fluxo = 0.9116*2268*1e-6
+fluxo = 0.9116*(aream)
 i_max = 0.4
-i_min = 0.3
+i_min = 0.35
 
 # ----------- Calculando as relutancias do gap -----------
 rgm = lgm/(mhi_ar * aream)
@@ -60,8 +60,7 @@ n2 = (fluxo*req_min)/i_min
 print("Numero de voltas 1:",n1)
 print("Numero de voltas 2:",n2)
 
-print(rf1_min)
-
+# print(rf1_min)
 
 # ----------- Valores minimos para comparar -----------
 # rgm = 771915.51
